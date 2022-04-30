@@ -1,4 +1,11 @@
-﻿using System;
+﻿// Name: Hyrum Paramore
+// Assignment: Tic-Tac-Toe
+// Purpose: Create a tic-tac-toe game
+// Additional info: Lots of research on this. I was able to make it so that you
+// your would play against a computer that is randomly guessing.
+
+
+using System;
 
 namespace tictactoe
 {

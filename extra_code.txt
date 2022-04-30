@@ -1,0 +1,79 @@
+using System;
+
+
+CallItJohn();
+
+void DoStuff()
+{
+    Console.WriteLine("I'm doing something...");
+
+}
+
+void CallItJohn()
+{
+    Console.WriteLine("yur mom");
+    DoStuff();
+    Console.WriteLine("Also, this is important too!");
+}
+
+
+
+
+using System;
+
+void DisplayBoard()
+{
+
+    char[] arr = new char[] {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+
+    Console.WriteLine($"{arr[0]} | {arr[1]} | {arr[2]}");
+    Console.WriteLine("--+---+--");
+    Console.WriteLine($"{arr[3]} | {arr[4]} | {arr[5]}");
+    Console.WriteLine("--+---+--");
+    Console.WriteLine($"{arr[6]} | {arr[7]} | {arr[8]}");
+
+
+}
+
+DisplayBoard();
+
+// void CreateBoard()
+// {
+//     char[] arr = new char[] {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    
+
+// void Play()
+// {
+//     int guess = -1;
+//     Console.Write("What is your guess? ");
+//     guess = int.Parse(Console.ReadLine());
+
+//     if (guess != 0);
+//     {
+//         Console.WriteLine("Lets Play!");
+//         DisplayBoard();
+//     }
+
+
+// }
+
+
+// void HasWinner()
+// {
+
+// }
+
+// Play();
+
+
+
+// void Test() 
+// {
+//     CreateBoard();
+//     DisplayBoard();
+// }
+
+
+
+
+// Test();
